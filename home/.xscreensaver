@@ -1,0 +1,35 @@
+# XScreenSaver Preferences File
+# Written by xscreensaver-demo 5.30 for gq on Sun Feb 15 16:22:48 2015.
+# http://www.jwz.org/xscreensaver/
+
+timeout:	0:10:00
+cycle:		0:10:00
+lock:		True
+lockTimeout:	0:01:00
+passwdTimeout:	0:00:30
+visualID:	default
+installColormap:    True
+verbose:	False
+timestamp:	True
+splash:		True
+splashDuration:	0:00:05
+demoCommand:	xscreensaver-demo
+prefsCommand:	xscreensaver-demo -prefs
+nice:		10
+memoryLimit:	0
+fade:		True
+unfade:		False
+fadeSeconds:	0:00:03
+fadeTicks:	20
+captureStderr:	True
+ignoreUninstalledPrograms:False
+dpmsEnabled:	True
+dpmsQuickOff:	False
+dpmsStandby:	0:05:00
+dpmsSuspend:	0:10:00
+dpmsOff:	0:30:00
+
+mode:		blank
+textMode:	date
+
+newLoginCommand: dm-tool switch-to-greeter
