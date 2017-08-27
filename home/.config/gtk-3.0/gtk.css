@@ -1,0 +1,6 @@
+/* reduce padding of tabs */
+notebook tab {
+  min-height: 0;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
