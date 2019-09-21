@@ -37,37 +37,27 @@
     <property name="plugin-5" type="string" value="cpugraph"/>
     <property name="plugin-6" type="string" value="systray">
       <property name="names-visible" type="array">
-        <value type="string" value="xfce4-power-manager"/>
-        <value type="string" value="skype"/>
-        <value type="string" value="keepassx"/>
-        <value type="string" value="transgui"/>
-        <value type="string" value="thunar"/>
-        <value type="string" value="wicd-client.py"/>
-        <value type="string" value="gxneur"/>
       </property>
     </property>
-    <property name="plugin-7" type="string" value="mixer">
-      <property name="sound-card" type="string" value="HDAIntelPCHAlsamixer"/>
-      <property name="track" type="string" value="Общий"/>
-      <property name="command" type="string" value="xfce4-mixer"/>
+    <property name="plugin-7" type="string" value="battery"/>
+    <property name="plugin-8" type="string" value="pulseaudio">
+    <property name="plugin-9" type="string" value="xkb"/>
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
     </property>
-    <property name="plugin-8" type="string" value="battery"/>
-    <property name="plugin-9" type="string" value="xkb-plugin"/>
     <property name="plugin-10" type="string" value="actions">
       <property name="appearance" type="uint" value="0"/>
       <property name="ask-confirmation" type="bool" value="true"/>
       <property name="items" type="array">
         <value type="string" value="+lock-screen"/>
-        <value type="string" value="+switch-user"/>
+        <value type="string" value="-switch-user"/>
         <value type="string" value="-separator"/>
-        <value type="string" value="-suspend"/>
+        <value type="string" value="+suspend"/>
         <value type="string" value="-hibernate"/>
         <value type="string" value="-separator"/>
         <value type="string" value="-shutdown"/>
         <value type="string" value="-restart"/>
-        <value type="string" value="+separator"/>
-        <value type="string" value="+logout"/>
+        <value type="string" value="-separator"/>
+        <value type="string" value="-logout"/>
         <value type="string" value="-logout-dialog"/>
       </property>
     </property>
