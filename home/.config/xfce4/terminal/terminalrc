@@ -20,7 +20,7 @@ ShortcutsNoMnemonics=TRUE
 ScrollingLines=10000
 MiscBellUrgent=TRUE
 MiscMouseWheelZoom=TRUE
-MiscMiddleClickOpensUri=TRUE
+MiscMiddleClickOpensUri=FALSE
 MiscCopyOnSelect=FALSE
 MiscDefaultWorkingDir=
 MiscRewrapOnResize=TRUE
@@ -31,5 +31,7 @@ FontName=Monospace 10
 TitleMode=TERMINAL_TITLE_REPLACE
 MiscShowRelaunchDialog=TRUE
 MiscNewTabAdjacent=TRUE
-ScrollingOnOutput=FALSE
+MiscSearchDialogOpacity=100
+MiscShowUnsafePasteDialog=FALSE
+MiscRightClickAction=TERMINAL_RIGHT_CLICK_ACTION_CONTEXT_MENU
 

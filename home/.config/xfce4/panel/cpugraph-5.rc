@@ -1,7 +1,5 @@
-UpdateInterval=2
 TimeScale=0
 Size=32
-Mode=0
 Frame=1
 Border=1
 Bars=0
@@ -10,8 +8,6 @@ Command=xfce4-taskmanager
 InTerminal=0
 StartupNotification=1
 ColorMode=0
-Foreground1=#0000ffff0000
-Foreground2=#ffff00000000
-Foreground3=#00000000ffff
-Background=#000000000000
+Background=rgb(0,0,0)
+PerCore=0
 
